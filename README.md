@@ -7,7 +7,7 @@ It has streak and notification support and everything, including strings, is
 configurable in its respective file.
 
 There's only one command, `dailycrystal`, executable with the
-`dailycrystal.command.dailycrystal` permission with two sub-commands:
+`dailycrystal.command.dailycrystal` permission, with two sub-commands:
 
  - `reload`, executable with the `dailycrystal.command.dailycrystal.reload`
 pemission, which allows to reload the plugin's configuration, player data and
