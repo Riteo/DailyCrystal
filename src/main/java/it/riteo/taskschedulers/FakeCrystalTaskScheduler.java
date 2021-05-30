@@ -1,4 +1,4 @@
-package taskschedulers;
+package it.riteo.taskschedulers;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
