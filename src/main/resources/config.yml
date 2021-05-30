@@ -1,0 +1,25 @@
+reward:
+  # The window title uses custom formatting rules which, for now, only replace '%s' with the current streak.
+  windowTitle: "A tasty treat - Day %s"
+  # A list of various items named after the streak and containig the actual list of rewards for that streak.
+  # The player will receive the rewards of the first one which is lower than or equal the current streak.
+  items:
+    0:
+      - ==: org.bukkit.inventory.ItemStack
+        type: EGG
+
+crystal:
+    location:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      world: world
+
+notification:
+  enabled: false
+  # Trigger options:
+  # - ON_JOIN: When the player joins;
+  # - ON_RESOURCE_PACK_LOAD: when the players loads or denies the server's resource pack.
+  trigger: ON_JOIN
+  title: "You got a new daily reward!"
+  subtitle: "Claim it at the spawn!"

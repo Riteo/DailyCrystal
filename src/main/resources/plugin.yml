@@ -1,0 +1,12 @@
+name: DailyCrystal
+main: it.riteo.dailycrystal.DailyCrystal
+version: ${version}
+description: A crystal offering daily rewards.
+author: Riteo Siuga
+api-version: 1.15
+depend: [ProtocolLib]
+
+commands:
+  dailycrystal:
+    description: Manages the plugin
+    permission: dailycrystal.command.dailycrystal

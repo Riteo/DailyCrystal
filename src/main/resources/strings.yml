@@ -1,0 +1,11 @@
+# This file contains the strings printed by plugin that aren't exceptions or other debug info.
+# If a string allows a placeholder normal formatting rules apply (%s for strings, %d for ints etc.)
+
+command.player_only: "Only players can execute this command!"
+command.usage: "Usage: %s <reload/notification>"
+
+command.reload.success: "Plugin reloaded."
+
+command.notification.enable.success: "Reward notification enabled."
+command.notification.disable.success: "Reward notification disabled."
+command.notification.usage: "Usage: %s notification <enable/disable>"
