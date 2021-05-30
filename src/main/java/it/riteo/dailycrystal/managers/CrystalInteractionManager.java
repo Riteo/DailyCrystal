@@ -15,8 +15,8 @@ import com.comphenix.protocol.ProtocolManager;
 import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.wrappers.BlockPosition;
 
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
 import it.riteo.dailycrystal.utilities.TimeUtilities;
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
 
 /**
  * A class managing the interactions between players and their crystals.

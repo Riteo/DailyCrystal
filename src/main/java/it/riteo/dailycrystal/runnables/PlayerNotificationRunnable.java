@@ -3,7 +3,7 @@ package it.riteo.dailycrystal.runnables;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
 
 /**
  * A {@link Runnable} which shows a new reward notification to a specified

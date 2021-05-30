@@ -1,4 +1,4 @@
-package it.riteo.taskschedulers;
+package it.riteo.dailycrystal.taskschedulers;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

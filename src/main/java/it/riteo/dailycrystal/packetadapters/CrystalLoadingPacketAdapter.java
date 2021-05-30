@@ -16,8 +16,8 @@ import com.comphenix.protocol.events.PacketEvent;
 
 import it.riteo.dailycrystal.managers.ConfigurationManager;
 import it.riteo.dailycrystal.managers.FakeCrystalManager;
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
 import it.riteo.dailycrystal.utilities.TimeUtilities;
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
 
 /**
  * A packet adapter which, by intercepting certain packets, tries to mimick the

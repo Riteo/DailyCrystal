@@ -11,8 +11,8 @@ import org.bukkit.event.player.PlayerResourcePackStatusEvent.Status;
 import it.riteo.dailycrystal.configuration.NotificationSettings;
 import it.riteo.dailycrystal.managers.ConfigurationManager;
 import it.riteo.dailycrystal.managers.PlayerDataManager;
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
-import it.riteo.taskschedulers.PlayerNotificationTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.PlayerNotificationTaskScheduler;
 
 /**
  * An event listener that decides when to show a new reward notification to a

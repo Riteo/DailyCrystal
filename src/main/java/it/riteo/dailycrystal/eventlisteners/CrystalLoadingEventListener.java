@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
 
 /**
  * A {@link Listener} responsible for unloading the players' crystals.

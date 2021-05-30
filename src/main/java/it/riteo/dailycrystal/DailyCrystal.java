@@ -24,8 +24,8 @@ import it.riteo.dailycrystal.managers.PlayerDataManager;
 import it.riteo.dailycrystal.managers.StringManager;
 import it.riteo.dailycrystal.packetadapters.CrystalInteractionPacketAdapter;
 import it.riteo.dailycrystal.packetadapters.CrystalLoadingPacketAdapter;
-import it.riteo.taskschedulers.FakeCrystalTaskScheduler;
-import it.riteo.taskschedulers.PlayerNotificationTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.FakeCrystalTaskScheduler;
+import it.riteo.dailycrystal.taskschedulers.PlayerNotificationTaskScheduler;
 
 public class DailyCrystal extends JavaPlugin {
 	private ConfigurationManager configurationManager;
