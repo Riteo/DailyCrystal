@@ -47,7 +47,7 @@ public class EntityUtilities {
 			IllegalArgumentException, IllegalAccessException {
 		if (entityCount == null) {
 			Class<?> entityClass = MinecraftReflection.getEntityClass();
-			Field entityCountField = entityClass.getDeclaredField("entityCount");
+			Field entityCountField = entityClass.getDeclaredField("b");
 			entityCountField.setAccessible(true);
 
 			/* We put null as the argument since the Entity class is static */

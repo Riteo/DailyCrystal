@@ -52,7 +52,7 @@ public class FakeCrystalManager {
 
 	private Logger logger;
 
-	private static final int SHOW_CRYSTAL_BASE_INTEGER_ID = 8;
+	private static final int SHOW_CRYSTAL_BASE_INTEGER_ID = 9;
 
 	/**
 	 * Creates a new instance of {@link FakeCrystalManager}.
