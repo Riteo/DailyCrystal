@@ -56,7 +56,7 @@ public class CrystalInteractionPacketAdapter extends PacketAdapter {
 	public void onPacketReceiving(PacketEvent event) {
 		Player player = event.getPlayer();
 
-		EntityUseAction entityUseAction = event.getPacket().getEntityUseActions().read(0);
+		EntityUseAction entityUseAction = event.getPacket().getEnumEntityUseActions().read(0).getAction();
 
 		if (entityUseAction.equals(EntityUseAction.ATTACK)) {
 			Integer interactedEntityId = event.getPacket().getIntegers().read(0);

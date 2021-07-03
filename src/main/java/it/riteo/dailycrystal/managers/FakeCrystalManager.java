@@ -161,8 +161,7 @@ public class FakeCrystalManager {
 		/* Setup of an entity destroy packet */
 		PacketContainer crystalDestroyPacket = new PacketContainer(PacketType.Play.Server.ENTITY_DESTROY);
 
-		/* The `write` method requires an array of IDs */
-		crystalDestroyPacket.getIntegerArrays().write(0, new int[] { crystalId });
+		crystalDestroyPacket.getIntegers().write(0, crystalId);
 
 		playerCrystalIdMap.remove(player);
 		crystalIdLocationMap.remove(crystalId);
