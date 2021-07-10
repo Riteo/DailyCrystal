@@ -20,6 +20,8 @@ package it.riteo.dailycrystal.managers;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.logging.Level;
@@ -161,7 +163,10 @@ public class FakeCrystalManager {
 		/* Setup of an entity destroy packet */
 		PacketContainer crystalDestroyPacket = new PacketContainer(PacketType.Play.Server.ENTITY_DESTROY);
 
-		crystalDestroyPacket.getIntegers().write(0, crystalId);
+		List<Integer> entityIds = new LinkedList<Integer>();
+		entityIds.add(crystalId);
+
+		crystalDestroyPacket.getIntLists().write(0, entityIds);
 
 		playerCrystalIdMap.remove(player);
 		crystalIdLocationMap.remove(crystalId);
