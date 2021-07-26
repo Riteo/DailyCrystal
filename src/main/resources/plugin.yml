@@ -3,7 +3,7 @@ main: it.riteo.dailycrystal.DailyCrystal
 version: ${version}
 description: A crystal offering daily rewards.
 author: Riteo Siuga
-api-version: 1.17.1
+api-version: 1.17
 depend: [ProtocolLib]
 
 commands:
