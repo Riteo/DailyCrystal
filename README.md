@@ -1,5 +1,9 @@
 # DailyCrystal
 
+**As the author stopped playing on Minecraft, this plugin has been abandoned. Feel free to fork it.**
+
+Known issue: `/reaload`ing the plugin while there are players in two different worlds casues an exception.
+
 This Spigot plugin shows a special crystal only to who hasn't reedemed it yet,
 daily.
 
